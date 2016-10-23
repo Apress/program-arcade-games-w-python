@@ -1,0 +1,11 @@
+<?php
+set_include_path('/mnt/webserver/www/files/python_examples');
+echo '<script type="syntaxhighlighter" class="brush: python"><![CDATA[';
+
+include 'array_backed_grid.py';
+
+echo ']]></script>';
+?>
+<script type="text/javascript">
+     SyntaxHighlighter.all()
+</script>
